@@ -650,7 +650,7 @@ span.ab-badge:hover {
     margin-top: 2em;
 }
 .ser-strip {
-    background: url(../images/ser-strip.jpg)no-repeat;
+    background: linear-gradient(to bottom right,#013375, #0a8ebc);
     background-size: cover;
     min-height: 370px;
     padding: 5em 0em;
@@ -662,16 +662,16 @@ span.ab-badge:hover {
     margin-bottom: 0.9em;
     font-family: 'Oswald', sans-serif;
 }
-.ser-strip-main a {
+.ser-strip-main button {
     font-size: 1em;
-      color: #4885ed;
-    border: 1px solid #4885ed;
-
+      color: #ffffff;
+    border: 1px solid ##F4D03F;
+    background: #D4AC0D;
     padding: 0.5em 1.5em;
     display: inline-block;
 }
-.ser-strip-main a:hover{
-    color:#006e96;
+.ser-strip-main button :hover{
+    color:#ffffff;
     border: 1px solid #006e96;
 }
 .blog-discription{
