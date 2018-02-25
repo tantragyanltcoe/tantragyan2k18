@@ -11,7 +11,7 @@ p {margin: 0;}
 html, body{
  font-family: 'Hind', sans-serif;
    font-size: 100%;
-   background:#fff; 
+   background:#fff;
 }
 a {
   text-decoration: none;
@@ -25,11 +25,11 @@ a:hover {
 }
 /*--banner start here--*/
 .banner {
-    background: url(../images/bann3.jpg)no-repeat,top;
-    min-height:600px;
+  background: url(../images/bann3.jpg)no-repeat,top;
+  min-height:600px;
 	width : fill ;
 	background-position: center center;
-    background-size: contain;
+  background-size: contain;
 }
 .banner-main {
     padding-top:10em;
@@ -82,31 +82,31 @@ span.mover {
     margin-top: 0px !important;
     line-height: 36px;
     border-bottom: 1px solid #AFAFAF;
-	background: url(../images/1.png);
-	background-size : cover ;
+	  background: linear-gradient(to bottom right,#055a93, #087fb1);
+	  background-size : cover ;
 }
 .wallpaper{
-	background : url(../images/11.png);	
+	background: linear-gradient(to bottom right,#013375, #0a8ebc);
 	background-size: cover;
-}	
-	
+}
+
 
 .navbar-inverse {
-    background: none; 
-    border:none; 
+    background: none;
+    border:none;
 }
 .navbar-nav {
     float: right !important;
 	margin-top: 0.6em;
 }
 .navbar {
-    margin-bottom: 0px !important;   
-    min-height: 0px !important;   
+    margin-bottom: 0px !important;
+    min-height: 0px !important;
 }
 .navbar-brand {
     float: left;
-    height:0px !important;  
-    padding:0px !important;  
+    height:0px !important;
+    padding:0px !important;
 }
 
 @media only screen and (min-width: 375px){
@@ -624,16 +624,16 @@ span.ab-badge:hover {
     line-height: 1.8em;
 }
 .serv-text h4 a{
-  color:#006e96;	
+  color:#006e96;
 }
 .serv-text h4 a:hover{
-	color:#4885ed;	
+	color:#4885ed;
 }
 .service-top h3 {
     font-size: 3em;
     color: #4885ed;
     text-align: center;
-    font-family: 'Oswald', sans-serif;  
+    font-family: 'Oswald', sans-serif;
 }
 .service-top p {
     font-size: 1em;
@@ -666,7 +666,7 @@ span.ab-badge:hover {
     font-size: 1em;
       color: #4885ed;
     border: 1px solid #4885ed;
-    
+
     padding: 0.5em 1.5em;
     display: inline-block;
 }
@@ -869,7 +869,7 @@ figure.effect-apollo {
 	padding: 0px;
 	background-color: #fff;
 	clear: left;
-	
+
 }
 h2.resp-accordion {
 	cursor: pointer;
@@ -886,7 +886,7 @@ h2.resp-accordion {
 .tab_img{
 	padding:1em 0em;
 }
-.img-top {	
+.img-top {
 	  position: relative;
 }
 .link-top {
@@ -1100,11 +1100,11 @@ span.glyphicon.glyphicon-envelope {
 }
 /*--media quiries start here--*/
 @media (max-width:1440px){
-	
+
 }
 @media (max-width:1366px){
 .banner {
-    min-height: 630px;	
+    min-height: 630px;
 }
 span.mover {
     margin: 6em auto 0em;
@@ -1118,12 +1118,12 @@ span.mover {
 
 }
 @media (max-width:1280px){
-	
+
 }
 @media (max-width:1024px){
 .about-text {
     width: 80%;
-}	
+}
 .about-icon {
     width: 18%;
 }
@@ -1150,7 +1150,7 @@ span.flr {
 }
 .hi-icon:after {
     top: 1px;
-    left: -1px;   
+    left: -1px;
 }
 }
 @media (max-width:991px){
@@ -1160,7 +1160,7 @@ span.flr {
 .about-right img {
     margin: 0 auto;
     width: 80%;
-}	
+}
 .team-grids {
     float: left;
     width: 50%;
@@ -1234,7 +1234,7 @@ span.flr {
 }
 @media (max-width:768px){
 .banner-main h1 {
-    font-size: 2.6em;	
+    font-size: 2.6em;
 }
 .banner {
     min-height: 534px;
@@ -1295,7 +1295,7 @@ span.flr {
 @media (max-width:640px){
 span.flr {
     margin: 1.5em 0em 1.5em 8em;
-}	
+}
 .banner-main {
     padding-top: 3em;
 }
@@ -1381,7 +1381,7 @@ span.mover {
 @media (max-width:480px){
 .banner-main h1 {
     font-size:1.8em;
-}	
+}
 .banner-main p {
     width: 100%;
 }
@@ -1556,13 +1556,13 @@ span.ab-badge {
 .resp-tab-item {
     padding: 6px 5px;
     font-size: 0.75em;
-}	
+}
 }
 @media (max-width:320px){
 .banner-main h1 {
     font-size: 1.5em;
     margin-top: 0.6em;
-}	
+}
 .banner-main p {
     font-size: 0.8em;
 }
