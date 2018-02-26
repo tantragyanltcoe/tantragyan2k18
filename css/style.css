@@ -378,23 +378,25 @@ span.heading-line {
     width: 83%;
 }
 .about-text h5 {
+    margin-left: 15%;
     font-size: 1em;
     color: #000;
     margin-bottom: 0.3em;
     font-family: 'Oswald', sans-serif;
 }
 .about-text p{
+  margin-left: 15%;
 	font-size: 1em;
     color:#929292;
     line-height: 1.8em;
 }
 span.learn {
     background: url(../images/a3.png)no-repeat 3px 3px;
-    width: 80px;
-    height: 80px;
+    width: 200px;
+    height: 200px;
     display: inline-block;
     border: 2px solid #fff;
-    border-radius: 40px;
+    border-radius: 100px;
 }
 span.learn:hover {
 	border-radius: 40px;
@@ -406,11 +408,11 @@ span.learn:hover {
 }
 span.degr {
     background: url(../images/a2.png)no-repeat 3px 3px;
-    width: 80px;
-    height: 80px;
+    width: 200px;
+    height: 200px;
     display: inline-block;
     border: 2px solid #fff;
-    border-radius: 40px;
+    border-radius: 100px;
 }
 span.degr:hover {
 	border-radius: 40px;
@@ -847,7 +849,7 @@ span.ab-badge:hover {
 .portfolio-top p {
     font-size: 1em;
     color:#7B7B7B;
-    text-align: center;
+    text-align: left;
 }
 figure.effect-apollo {
     border: 5px solid #fff;
@@ -1554,14 +1556,14 @@ span.ftr-line {
 span.learn {
     background: url(../images/a3.png)no-repeat 3px 3px;
     background-size: 90%;
-    width: 63px;
-    height: 63px;
+    width: 100px;
+    height: 100px;
 }
 span.degr {
     background: url(../images/a2.png)no-repeat 3px 3px;
     background-size: 90%;
-	 width: 63px;
-    height: 63px;
+	 width: 100px;
+    height: 100px;
 }
 span.ab-badge {
     background: url(../images/a1.png)no-repeat 3px 3px;
@@ -1774,14 +1776,14 @@ span.ftr-line {
 span.learn {
     background: url(../images/a3.png)no-repeat 3px 3px;
     background-size: 87%;
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
 }
 span.degr {
     background: url(../images/a2.png)no-repeat 3px 3px;
     background-size: 87%;
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
 }
 span.ab-badge {
     background: url(../images/a1.png)no-repeat 3px 3px;
