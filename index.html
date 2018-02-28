@@ -61,20 +61,22 @@
     color: #fff!important;
 	text-align: center!important;
 }
-
-.gal-one:hover{
- box-shadow: 0px 0px 150px #000000;
-    z-index: 2;
-	position: absolute;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 200ms ease-in;
-    transform: scale(1.5);
+@media only screen and (min-width: 1000px){
+	.gal-one:hover{
+	 box-shadow: 0px 0px 150px #000000;
+	    z-index: 2;
+		position: absolute;
+	    -webkit-transition: all 200ms ease-in;
+	    -webkit-transform: scale(1.5);
+	    -ms-transition: all 200ms ease-in;
+	    -ms-transform: scale(1.5);
+	    -moz-transition: all 200ms ease-in;
+	    -moz-transform: scale(1.5);
+	    transition: all 200ms ease-in;
+	    transform: scale(1.5);
+	}
 }
+
 #myBtn {
   position: fixed;
   bottom: 20px;
@@ -88,6 +90,9 @@
   border-radius: 4px;
 }
 
+
+
+}
 
 </style>
 </head>
@@ -170,7 +175,7 @@
 </div>
 <!--header end here-->
 
-<div class="about" id="aboutus"><br><br>
+<div class="about" id="aboutus"><br><br><br>
 <!--About Starts Here-->
 <div class="container">
  <div class="portfolio-top wow fadeInDown" data-wow-delay="0.1s">
@@ -230,10 +235,9 @@ College is active in several curricular & non- curricular activities. This helps
 			    <h3>Gallery</h3>
 				<span class="heading-line"> </span>
 		<div class="sap_tabs">
-
 						 <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 						  <ul class="resp-tabs-list">
-						  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>photos from the past!</span></li>
+		 <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>photos from the past!</span></li>
 							  <div class="clearfix"> </div>
 						  </ul>
 							<div class="resp-tabs-container">
@@ -466,17 +470,18 @@ College is active in several curricular & non- curricular activities. This helps
 
 <div id="team"><br><br><br><br><br><br>
 <!--Team Starts Here-->
-<div class="container">
- <div class="portfolio-top wow fadeInDown" data-wow-delay="0.1s">
-	 <h3>Team</h3>
- <span class="heading-line"> </span>
-
+<div class="team">
+	<div class="container">
+		<div class="team-main">
+			<div class="team-top wow fadeInDown" data-wow-delay="0.3s">
+				<h3>Our Team</h3>
+				<span class="heading-line"> </span>
+	
+			   </div>
+			</div>
+		</div>
+	</div>
 </div>
-</div>
-
-
-
-
 <!--Team Ends Here-->
 </div>
 
