@@ -557,7 +557,6 @@ span.ab-badge:hover {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
@@ -587,16 +586,7 @@ span.ab-badge:hover {
   background: #1a4a72;
   background: rgba(26, 74, 114, 0.6);
 }
-.ih-item.circle.effect5 .info {
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
+
 .ih-item.circle.effect5 .info .info-back {
   visibility: hidden;
   border-radius: 50%;
@@ -1774,10 +1764,10 @@ span.ftr-line {
     font-size: 0.8em;
 }
 span.learn {
-    background: url(../images/a3.png)no-repeat 3px 3px;
-    background-size: 87%;
-    width: 90px;
-    height: 90px;
+  background: url(../images/a3.png)no-repeat 3px 3px;
+  background-size: 87%;
+  width: 90px;
+  height: 90px;
 }
 span.degr {
     background: url(../images/a2.png)no-repeat 3px 3px;

@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Tantragyan 2K18</title>
-<link rel="shortcut icon" href="images/logo-big.jpg" />
+<link rel="shortcut icon" href="images/a3.png" />
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -95,6 +95,64 @@
 }
 
 </style>
+<style>
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.column img {
+   padding:1px;
+   border:3px solid #021a40;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+.listteam {
+	    border: 0;
+	    width: 100%;
+	    max-width: 500px;
+	    height: auto;
+
+	}
+
+}
+
+</style>
 </head>
 <body>
 
@@ -107,7 +165,6 @@
 <div class ="wallpaper">
 <div class="banner" id="home">
 	<div class="container">
-
 	</div>
 </div>
 <!--banner start here-->
@@ -116,8 +173,6 @@
 		================================================== -->
 <div class="header">
 	<div class="fixed-header">
-
-
 
 		    <div class="navbar-wrapper">
 		      <div class="container">
@@ -175,7 +230,8 @@
 </div>
 <!--header end here-->
 
-<div class="about" id="aboutus"><br><br><br>
+
+<div class="about" id="aboutus"><br><br>
 <!--About Starts Here-->
 <div class="container">
  <div class="portfolio-top wow fadeInDown" data-wow-delay="0.1s">
@@ -427,6 +483,29 @@ College is active in several curricular & non- curricular activities. This helps
  <div class="portfolio-top wow fadeInDown" data-wow-delay="0.1s">
 	 <h3>Sponsor</h3>
  <span class="heading-line"> </span>
+ <!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="images/1.jpg" style="width:100%"><br><br>
+    <img src="images/4.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/3.jpg" style="width:100%"><br><br><br>
+    <img src="images/2.jpg" style="width:100%"><br><br>
+    <img src="images/6.jpg" style="width:100%">
+
+  </div>
+  <div class="column">
+    <img src="images/5.jpg" style="width:100%"><br><br><br>
+    <img src="images/7.jpg" style="width:100%">
+
+  </div>
+  <div class="column">
+    <img src="images/8.jpg" style="width:100%"><br><br><br>
+    <img src="images/9.jpg" style="width:100%">
+
+    </div>
+</div>
 </div>
 </div>
 
@@ -476,8 +555,110 @@ College is active in several curricular & non- curricular activities. This helps
 			<div class="team-top wow fadeInDown" data-wow-delay="0.3s">
 				<h3>Our Team</h3>
 				<span class="heading-line"> </span>
-	
+
+			</div>
+			<div class="team-bottom wow fadeInRight" data-wow-delay="0.3s">
+			  <div class="col-md-6 team-grids">
+			    <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t1.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			          </div>
+			        </div></a></div>
+			        <div class="team-bottom">
+			        	  <h3>Dr.C.M Wankhade</h3>
+									<h5>Head of Electrical Department</h5>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			    <!-- end normal -->
 			   </div>
+			  <div class="col-md-6 team-grids">
+			   <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t2.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			          </div>
+			        </div></a></div>
+			        <div class="team-bottom">
+								<h3>Prof.Shruti Nema</h3>
+								<h5>Faculty Incharge</h5>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			    <!-- end normal -->
+			  </div>
+				<div class="col-md-4 team-grids">
+				 <!-- normal -->
+				 <div class="ih-item circle effect5"><a href="#">
+						 <div class="img"><img src="images/t4.jpg" alt="img" class="img-responsive"></div>
+						 <div class="info">
+							 <div class="info-back">
+							 </div>
+						 </div></a></div>
+						 <div class="team-bottom">
+							 <h3>Tanmay Karekar</h3>
+							 <h5>General Incharge</h5>
+								 <ul>
+									 <li><a href="#" class="fa"> </a></li>
+									 <li><a href="#" class="tw"> </a></li>
+									 <li><a href="#" class="g"> </a></li>
+								 </ul>
+						 </div>
+				 <!-- end normal -->
+			 </div>
+			  <div class="col-md-4 team-grids">
+			    <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t3.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			          </div>
+			        </div></a></div>
+			        <div class="team-bottom">
+								<h3>Shibin Panicker</h3>
+								<h5>Co-General Incharge</h5>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			    <!-- end normal -->
+			  </div>
+
+				<div class="col-md-4 team-grids">
+			    <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t5.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			          </div>
+			        </div></a></div>
+			        <div class="team-bottom">
+								<h3>Ruchit Modi</h3>
+								<h5>Technical Incharge</h5>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			    <!-- end normal -->
+			   </div>
+
+				 <br>
+				 <div class="listteamdiv" align="center">
+				 <img src="images/listteam.jpg" alt="listteam" class="listteam" align="center">
+			 </div>
 			</div>
 		</div>
 	</div>
@@ -541,8 +722,8 @@ College is active in several curricular & non- curricular activities. This helps
 <div class="copy-right">
 	<div class="container">
 		 <div class="copy-rights-main wow zoomIn" data-wow-delay="0.1s">
-    	    <p>© Tantragyan 2018. All Rights Reserved | Design by Yash Jariwala</a> </p><br>
-					<p>Works best on Chrome|Opera|Firefox. </p>
+    	    <p>© Tantragyan 2018. All Rights Reserved | Designed and Coded by Yash Jariwala</a> </p><br>
+					<p>Works best on Chrome | Opera | Firefox. </p>
     	 </div>
     </div>
 </div>
