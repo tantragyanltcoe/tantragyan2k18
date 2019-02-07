@@ -82,11 +82,11 @@ span.mover {
     margin-top: 0px !important;
     line-height: 36px;
     border-bottom: 1px solid #AFAFAF;
-	  background: linear-gradient(to bottom right,#055a93, #087fb1);
+	  background: linear-gradient(to bottom right,#8587b5, #8557ad);
 	  background-size : cover ;
 }
 .wallpaper{
-	background: linear-gradient(to bottom right,#013375, #0a8ebc);
+	background: linear-gradient(to bottom right,#85bbbd, #8540aa);
 	background-size: cover;
 }
 
@@ -315,7 +315,7 @@ span.flr {
 }
 /*--footer end here--*/
 .copy-right {
-    background:#003c7f;
+    background: #8540aa;
     padding: 1.5em 0em;
     text-align: center;
 }
@@ -338,7 +338,7 @@ span.flr {
 }
 .about-top h2 {
     font-size: 3em;
-    color:#4885ed;
+    color:#8540aa;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
@@ -349,7 +349,7 @@ span.flr {
 }
 .about-left h4 {
     font-size: 1.7em;
-    color:#006e96;
+    color:#8540aa;
     margin-bottom: 0.4em;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.8px;
@@ -400,7 +400,7 @@ span.learn {
 }
 span.learn:hover {
 	border-radius: 40px;
-	 border: 2px solid #016E96;
+	 border: 2px solid #8540aa;
 	 transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -416,7 +416,7 @@ span.degr {
 }
 span.degr:hover {
 	border-radius: 40px;
-	 border: 2px solid #016E96;
+	 border: 2px solid #8540aa;
 	     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -432,7 +432,7 @@ span.ab-badge{
 }
 span.ab-badge:hover {
 	border-radius: 40px;
-	 border: 2px solid #016E96;
+	 border: 2px solid #8540aa;
 	     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -440,7 +440,7 @@ span.ab-badge:hover {
 }
 .about-grid:hover span{
     border-radius: 40px;
-    border: 2px solid #016E96;
+    border: 2px solid #8540aa;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -460,7 +460,7 @@ span.ab-badge:hover {
 }
 .team-top h3 {
     font-size: 3em;
-    color: #4885ed;
+    color: #8540aa;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
@@ -602,7 +602,7 @@ span.ab-badge:hover {
 }
 .serv-text h4 {
     font-size: 1.1em;
-    color: #006e96;
+    color: #8540aa;
     margin-bottom: 0.5em;
     font-family: 'Oswald', sans-serif;
 }
@@ -612,7 +612,7 @@ span.ab-badge:hover {
     line-height: 1.8em;
 }
 .serv-text h4 a{
-  color:#006e96;
+  color:#8540aa;
 }
 .serv-text h4 a:hover{
 	color:#4885ed;
@@ -638,7 +638,7 @@ span.ab-badge:hover {
     margin-top: 2em;
 }
 .ser-strip {
-    background: linear-gradient(to bottom right,#013375, #0a8ebc);
+    background: linear-gradient(to bottom right,#8587b5, #8557ad);
     background-size: cover;
     min-height: 370px;
     padding: 5em 0em;
@@ -795,7 +795,7 @@ span.ab-badge:hover {
 }
 .portfolio-top h3 {
     font-size: 3em;
-    color: #4885ed;
+    color: #8540aa;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
@@ -847,10 +847,10 @@ figure.effect-apollo {
     border-radius: 10px 1px 10px 1px;
 }
 .resp-tab-active{
-	background:#006e96;
+	background:#8540aa;
   text-shadow: none;
   color: #fff;
-  border: 2px solid #006e96;
+  border: 2px solid #fff;
   border-radius: 10px 1px 10px 1px;
 }
 .resp-tabs-container {
