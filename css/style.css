@@ -1260,15 +1260,15 @@ span.flr {
 }
 @media (max-width:767px){
 .navbar-inverse .navbar-toggle {
-    background: #4885ed;
+    background: #8540aa;
     border:none;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-    background-color: #006e96;
+    background-color: #4b0175;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border: none;
-    background: #023e82;
+    background: #8540aa;
 }
 .navbar-nav {
     float: none !important;
