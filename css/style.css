@@ -482,12 +482,7 @@ span.ab-badge:hover {
 	display: inline-block;
 	margin-left: 0.2em;
 }
-.team-bottom ul li a {
-    background: url(../images/t-icn.png)no-repeat;
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-}
+
 .team-bottom ul li a.fa {
     background-position: 0px 0px;
 }
