@@ -25,7 +25,7 @@ a:hover {
 }
 /*--banner start here--*/
 .banner {
-  background: url(../images/bann3.png)no-repeat,top;
+  background: url(../images/bann3.jpg)no-repeat,top;
   min-height:600px;
 	width : fill ;
 	background-position: center center;
